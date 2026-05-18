@@ -1,0 +1,43 @@
+# PHP/Web Project .gitignore
+
+# Dependencies
+vendor/
+
+# Environment and Configuration
+.env
+.env.local
+.env.*.local
+config/local.php
+config/settings.local.php
+
+# IDE and Editor files
+.idea/
+.vscode/
+.settings/
+.project
+.buildpath
+.metadata/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+tmp/
+cache/
